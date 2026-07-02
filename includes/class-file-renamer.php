@@ -6,17 +6,23 @@ final class AVUM_File_Renamer
 {
     public static function init()
     {
-        add_filter('sanitize_file_name', [self::class, 'rename'], 999);
+        add_filter('wp_handle_upload_prefilter', [self::class, 'rename']);
     }
 
-    public static function rename($filename)
+    public static function rename($file)
     {
-        $extension = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-
-        if (empty($extension)) {
-            return $filename;
+        if (empty($file['name'])) {
+            return $file;
         }
 
-        return gmdate('YmdHis') . '.' . $extension;
+        $extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
+
+        if (empty($extension)) {
+            return $file;
+        }
+
+        $file['name'] = gmdate('YmdHis') . '.' . $extension;
+
+        return $file;
     }
 }
