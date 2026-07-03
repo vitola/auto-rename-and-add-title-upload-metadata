@@ -2,14 +2,14 @@
 
 defined('ABSPATH') || exit;
 
-final class AVUM_Plugin
+final class ARATUM_Plugin
 {
     public static function init()
     {
-        require_once AVUM_PATH . 'includes/class-file-renamer.php';
-        require_once AVUM_PATH . 'includes/class-media-metadata.php';
+        require_once ARATUM_PATH . 'includes/class-file-renamer.php';
+        require_once ARATUM_PATH . 'includes/class-media-metadata.php';
 
-        AVUM_File_Renamer::init();
-        AVUM_Media_Metadata::init();
+        ARATUM_File_Renamer::init();
+        ARATUM_Media_Metadata::init();
     }
 }

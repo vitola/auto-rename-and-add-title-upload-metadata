@@ -2,7 +2,7 @@
 
 defined('ABSPATH') || exit;
 
-final class AVUM_File_Renamer
+final class ARATUM_File_Renamer
 {
     public static function init()
     {

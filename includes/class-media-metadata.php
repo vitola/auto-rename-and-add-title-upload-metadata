@@ -2,7 +2,7 @@
 
 defined('ABSPATH') || exit;
 
-class AVUM_Media_Metadata
+class ARATUM_Media_Metadata
 {
     public static function init()
     {

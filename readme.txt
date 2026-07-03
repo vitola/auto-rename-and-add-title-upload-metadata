@@ -1,18 +1,17 @@
-=== Alex Vitola Upload Metadata ===
-Contributors: alexvitola
+=== ARATUM Auto Rename and Add Title Upload Metadata ===
+Contributors: Alex Vitola
 Tags: media, images, rename, metadata, upload
 Requires at least: 6.0
 Tested up to: 7.0
-Stable tag: 0.9.1
+Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-== Short Description ==
 Automatically renames uploaded images and extracts metadata for media titles and captions.
 
 == Description ==
 
-Alex Vitola Upload Metadata automatically processes uploaded images in WordPress.
+ARATUM Auto Rename and Add Title Upload Metadata automatically processes uploaded images in WordPress.
 
 It performs three main actions:
 
@@ -38,7 +37,7 @@ It supports standard WordPress image types (JPG, PNG, WEBP where metadata is ava
 
 == Changelog ==
 
-= 0.9.0 =
+= 0.0.1 =
 * Initial public-ready version
 * Automatic file renaming using timestamp
 * Media title generation from filename

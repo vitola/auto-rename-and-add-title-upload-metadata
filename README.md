@@ -1,6 +1,6 @@
-# Alex Vitola Upload Metadata
+# ARATUM Auto Rename and Add Title Upload Metadata
 
-Alex Vitola Upload Metadata is a lightweight WordPress plugin that automatically organizes image uploads.
+ARATUM Auto Rename and Add Title Upload Metadata is a lightweight WordPress plugin that automatically organizes image uploads.
 
 ## Features
 
